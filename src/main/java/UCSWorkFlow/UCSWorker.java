@@ -16,6 +16,7 @@ public class UCSWorker {
 
         // Registering workflow and activity implementations to the worker
         worker.registerWorkflowImplementationTypes(UCSWorkFlowImpl.class);
+        worker.registerWorkflowImplementationTypes(UCSSecondWorkFlowImpl.class);
         worker.registerActivitiesImplementations(new UCSActivitiesImpl());
 
         factory.start();

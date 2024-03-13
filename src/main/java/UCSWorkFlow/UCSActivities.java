@@ -18,11 +18,11 @@ public interface UCSActivities {
 
     //Transfer happens when retailer requests money for this particular amount of credit he/she has.
     @ActivityMethod
-    void transferCreditToMoney(int creditsToBeTransferred);
+    int transferCreditToMoney(int creditsToBeTransferred);
 
     //Transfer happens when student requests credit for this particular amount of money he/she has.
     @ActivityMethod
-    void transferMoneyToCredit(int MoneyToBeTransferred);
+    int transferMoneyToCredit(int MoneyToBeTransferred);
 
     @ActivityMethod
     void setInitialValues();
