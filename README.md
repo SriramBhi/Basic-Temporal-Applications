@@ -15,11 +15,11 @@ Same applies to the retailer inorder to exchange credits with actual currency.
 1. Wrote a basic workflow for reliable execution of the transaction process.
 2. Leveraged the property of signal method in order to pass input dynamically.
 3. Explored different ways on how we can use timeouts and retry options for both workflows and activities for durability and reliability according to our business logic.
+4. Usage of cronjob inorder to manually upgrade fixed amount of credits for retailer (Periodically).
+5. Usage of cronjob inorder to manually upgrade fixed amount of credits for student (Periodically).
 
 <b>Topics to be explored : </b> <br>
-1. Usage of cronjob inorder to manually upgrade fixed amount of credits for retailer (Periodically).
-2. Usage of cronjob inorder to manually upgrade fixed amount of credits for student (Periodically).
-3. Usage of LocalActivityOptions inorder to restrict activities inorder to execute in a single worker.
+1. Usage of LocalActivityOptions inorder to restrict activities inorder to execute in a single worker.
 
 ### Remarks : 
 
